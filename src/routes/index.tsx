@@ -1,18 +1,18 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import logo from "@/assets/vanagui-logo.png";
-import galleryMothersDay from "@/assets/gallery-mothers-day.jpg";
-import galleryMonsterJam from "@/assets/gallery-monster-jam.jpg";
-import galleryBabyBlue from "@/assets/gallery-baby-blue.jpg";
-import galleryAngela from "@/assets/gallery-angela.jpg";
-import gallerySafari from "@/assets/gallery-safari.jpg";
-import galleryFrozen from "@/assets/gallery-frozen.jpg";
-import galleryOhBaby from "@/assets/gallery-oh-baby.jpg";
-import gallerySpace from "@/assets/gallery-space.jpg";
-import galleryNinjago from "@/assets/gallery-ninjago.jpg";
-import galleryPrincess from "@/assets/gallery-princess.jpg";
-import galleryRapunzel from "@/assets/gallery-rapunzel.jpg";
-import galleryCocomelon from "@/assets/gallery-cocomelon.jpg";
+import logo from "@/assets/vanagui-logo.webp";
+import galleryMothersDay from "@/assets/gallery-mothers-day.webp";
+import galleryMonsterJam from "@/assets/gallery-monster-jam.webp";
+import galleryBabyBlue from "@/assets/gallery-baby-blue.webp";
+import galleryAngela from "@/assets/gallery-angela.webp";
+import gallerySafari from "@/assets/gallery-safari.webp";
+import galleryFrozen from "@/assets/gallery-frozen.webp";
+import galleryOhBaby from "@/assets/gallery-oh-baby.webp";
+import gallerySpace from "@/assets/gallery-space.webp";
+import galleryNinjago from "@/assets/gallery-ninjago.webp";
+import galleryPrincess from "@/assets/gallery-princess.webp";
+import galleryRapunzel from "@/assets/gallery-rapunzel.webp";
+import galleryCocomelon from "@/assets/gallery-cocomelon.webp";
 
 export const Route = createFileRoute("/")({
   head: () => ({
